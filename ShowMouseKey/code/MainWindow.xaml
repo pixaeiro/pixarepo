@@ -1,0 +1,19 @@
+﻿<Window x:Class="ShowMouseKey.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="91" Width="525" Background="Transparent" BorderThickness="0" WindowStyle="None" AllowsTransparency="True" MouseDown="OnMouseDown" MouseMove="OnMouseMove" MouseUp="OnMouseUp">
+    <Grid>
+        <Image x:Name="MouseImage" Source="Images/Mouse_L0M0R0.png" Margin="5,5,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="45" Height="40" />
+        <StackPanel x:Name="stackKeys" Width="437" Height="32" HorizontalAlignment="Left" Margin="54,9,0,0"  VerticalAlignment="Top" Orientation="Horizontal">
+            <Image x:Name="boxKey1" Width="32" Height="32" Stretch="Fill" Source="/ShowMouseKey;component/Images/KeyLetterA.png" />
+            <Image x:Name="boxKey2" Width="32" Height="32" Stretch="Fill" Source="/ShowMouseKey;component/Images/KeyLetterB.png" />
+            <Image x:Name="boxKey3" Width="32" Height="32" Stretch="Fill" Source="/ShowMouseKey;component/Images/KeyLetterC.png" />
+            <Image x:Name="boxKey4" Width="32" Height="32" Stretch="Fill" Source="/ShowMouseKey;component/Images/KeyLetterD.png" />
+            <Image x:Name="boxKey5" Width="32" Height="32" Stretch="Fill" Source="/ShowMouseKey;component/Images/KeyLetterE.png" />
+            <Image x:Name="boxKey6" Width="32" Height="32" Stretch="Fill" Source="/ShowMouseKey;component/Images/KeyLetterF.png" />
+            <Image x:Name="boxKey7" Width="32" Height="32" Stretch="Fill" Source="/ShowMouseKey;component/Images/KeyLetterG.png" />
+            <Image x:Name="boxKey8" Width="32" Height="32" Stretch="Fill" Source="/ShowMouseKey;component/Images/KeyLetterH.png" />
+            <Image x:Name="boxKey9" Width="32" Height="32" Stretch="Fill" Source="/ShowMouseKey;component/Images/KeyLetterI.png" />
+        </StackPanel>
+    </Grid>
+</Window>
